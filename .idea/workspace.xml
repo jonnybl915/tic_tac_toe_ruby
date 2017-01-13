@@ -62,8 +62,8 @@
           <file leaf-file-name="xos.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xos.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+                <state relative-caret-position="525">
+                  <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -86,8 +86,8 @@
           <file leaf-file-name="xos_spec.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xos_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+                <state relative-caret-position="638">
+                  <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +103,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xos.rb" />
         <option value="$PROJECT_DIR$/xos_spec.rb" />
+        <option value="$PROJECT_DIR$/xos.rb" />
       </list>
     </option>
   </component>
@@ -279,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484331583541</updated>
-      <workItem from="1484331584617" duration="2179000" />
+      <workItem from="1484331584617" duration="3245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2179000" />
+    <option name="totallyTimeSpent" value="3245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="967" height="814" extended-state="0" />
@@ -352,18 +352,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xos.rb">
+    <entry file="file://$PROJECT_DIR$/xos_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xos_spec.rb">
+    <entry file="file://$PROJECT_DIR$/xos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>

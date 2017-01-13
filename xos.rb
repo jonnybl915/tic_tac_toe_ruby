@@ -5,7 +5,23 @@ class XOs
     @board = Array.new(9)
   end
   def winner
+    rows = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ]
 
+    rows.each do |row|
+      if did_win_row?(row, 'X')
+        return 'X'
+      elsif did_win_row?(row, 'O')
+        return 'O'
+      end
+
+    end
+  end
+  def did_win_row?(row, player)
+    row.select { |pos| letter_at(pos) == player}.count == 3
   end
   def board_full?
       !@board.include?(nil)
