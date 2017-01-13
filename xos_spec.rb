@@ -3,12 +3,27 @@ require_relative 'XOs'
 
 
 describe XOs do
+
+  it 'can take one turn' do
+    x = XOs.new
+
+    # I take one turn
+    # where I place an x at position 3
+    x.take_turn('X', 3)
+
+    # something happens ...
+    expect(x.turns_left)
+
+    # I see the X on the board at (Position 3)
+    expect(x.letter_at 3).to eq 'X'
+  end
+
   skip 'can fill up the board' do
 
     # c = Counter.new
     # c.up
     # expect(c.count).to eq 1
-    
+
     x = XOs.new
 
     # I fill up the board
@@ -17,4 +32,5 @@ describe XOs do
     end
 
   end
+
 end
