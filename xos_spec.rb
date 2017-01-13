@@ -22,22 +22,21 @@ describe XOs do
   it 'rejects squares that are already taken'
 
   it '...' do
-    x = XOs.new 
+    x = XOs.new
 
     expect(x.letter_at 7).to eq nil
   end
 
-  skip 'can fill up the board' do
-
-    # c = Counter.new
-    # c.up
-    # expect(c.count).to eq 1
+  it 'can fill up the board' do
 
     x = XOs.new
-
+    expect(x.board_full?).to eq false
+    
     # I fill up the board
-    9.times do
-      x.take_turn
+    (1 .. 9).each do |pos|
+
+      x.take_turn 'O', pos
+
     end
 
   end

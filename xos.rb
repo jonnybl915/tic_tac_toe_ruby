@@ -8,7 +8,7 @@ class XOs
 
   end
   def board_full?
-    @turns_left = 0
+      !@board.include?(nil)
   end
 
   def take_turn(letter, position)
