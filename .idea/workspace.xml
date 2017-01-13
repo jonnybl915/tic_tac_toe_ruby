@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bb15d29-cf37-4d66-8d3e-bb20c276952c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xos.rb" afterPath="$PROJECT_DIR$/xos.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xos_spec.rb" afterPath="$PROJECT_DIR$/xos_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,8 +61,8 @@
           <file leaf-file-name="xos.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xos.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -279,12 +278,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484331583541</updated>
-      <workItem from="1484331584617" duration="3245000" />
+      <workItem from="1484331584617" duration="3359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3245000" />
+    <option name="totallyTimeSpent" value="3359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="967" height="814" extended-state="0" />
@@ -362,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
