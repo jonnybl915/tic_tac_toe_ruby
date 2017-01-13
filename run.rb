@@ -4,10 +4,17 @@ require_relative 'Player'
 
 
 g = XOs.new
-x = Player.new
-o = Player.new
+x = Player.new 'X'
+o = Player.new 'O'
 
 until g.winner || g.board_full?
-  x.prompt_for_move
-  o.prompt_for_move
+
+  puts g.show_board
+
+  pos = x.prompt_for_move
+
+  g.take_turn 'X', pos
+
+  pos = o.prompt_for_move
+  g.take_turn 'O', pos
 end

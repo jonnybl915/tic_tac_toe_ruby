@@ -37,6 +37,13 @@ class XOs
     @turns_left -= 1
 
   end
+  def show_board
+    "#{letter_at 1}   |   #{letter_at 2}    |   #{letter_at 3}
+     ----------------------------------------------------------
+     #{letter_at 4}   |   #{letter_at 5}    |   #{letter_at 6}
+     ----------------------------------------------------------
+     #{letter_at 7}   |   #{letter_at 8}    |   #{letter_at 9}"
+  end
   def letter_at(position)
     @board[position - 1]
 
